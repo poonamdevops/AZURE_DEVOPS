@@ -1,0 +1,23 @@
+AZURE DEVOPS-
+
+
+We can run CICDusing Azure devops and deploy application on any platform like aws, azure so to connect aws and azure devops there are three options
+
+OIDC 
+
+Access and secret key 
+
+Self host AWS runner -- for this need to create agent using agent pool in azure devops and also create PAT token from azure repo git if code is available in the azure devops then download agent on aws ec2 and then agent will be register means azure devops and aws will connect--- Pool means runner need to create
+
+We can run pipeline using classic and using UI of azure devops 
+
+
+
+select branch and add new yaml.
+
+Then again create new pipeline select existing azure pipeline select branch and file.yaml and then contuine and run pipilein
+
+
+To pull image from ACR and push into ECR from Azure cloud shell there docker deamon not support su using ec2 in aws  we can pull image from azure acr for this we need to use token from azure like aws access and secret key
+
+
