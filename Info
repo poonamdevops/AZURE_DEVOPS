@@ -15,7 +15,7 @@ We can run pipeline using classic and using UI of azure devops
 
 select branch and add new yaml.
 
-Then again create new pipeline select existing azure pipeline select branch and file.yaml and then contuine and run pipilein
+To RUN Pipeline when we add Yaml into branch --Then again create new pipeline select existing azure pipeline select branch and file.yaml and then contuine and run pipilein
 
 
 To pull image from ACR and push into ECR from Azure cloud shell there docker deamon not support su using ec2 in aws  we can pull image from azure acr for this we need to use token from azure like aws access and secret key
